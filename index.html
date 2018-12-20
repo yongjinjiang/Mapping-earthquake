@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Geo JSON</title>
+
+<!-- Google Font -->
+<link href="https://fonts.googleapis.com/css?family=Sanchez" rel="stylesheet">
+
+
+  <!-- Leaflet CSS & JS -->
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.3.3/dist/leaflet.css"
+  integrity="sha512-Rksm5RenBEKSKFjgI3a41vrjkw4EVPlJ3+OiI65vTjIdo9brlAacEuKOiQ5OFh7cOI1bkDwLqdLw3Zg0cRJAAQ=="
+  crossorigin=""/>
+  <script src="https://unpkg.com/leaflet@1.3.3/dist/leaflet.js"
+  integrity="sha512-tAGcCfR4Sc5ZP5ZoVz0quoZDYX5aCtEm/eu1KhSLj2c9eFrylXZknQYmxUssFaVJKvvc0dJQixhGjG2yXWiV9Q=="
+  crossorigin=""></script>
+
+  <!--D3 cdn-->
+<!--  <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/4.5.0/d3.min.js"></script>-->
+<!--  <script src="//cdnjs.cloudflare.com/ajax/libs/require.js/2.1.8/require.min.js"></script>-->
+    
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/3.5.6/d3.min.js"></script>
+<!--  <script src="//cdnjs.cloudflare.com/ajax/libs/require.js/2.1.8/require.min.js"></script>-->
+<!--    <script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>-->
+
+  <!-- Our CSS -->
+  <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body>
+  <!-- The div where we will inject our map -->
+  <div id="map"></div>
+
+
+
+
+<!-- MomentJS -->
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.15.1/moment.min.js"></script>
+
+<!--
+ Leaflet JavaScript 
+<script src="https://unpkg.com/leaflet@1.3.3/dist/leaflet.js"
+integrity="sha512-tAGcCfR4Sc5ZP5ZoVz0quoZDYX5aCtEm/eu1KhSLj2c9eFrylXZknQYmxUssFaVJKvvc0dJQixhGjG2yXWiV9Q=="
+crossorigin=""></script>
+-->
+
+<!-- Icons -->
+<script src="./leaflet.extra-markers.min.js"></script>
+
+<!-- polyfill.io is library for using newer JavaScript features in older browers (such as Object.assign) -->
+<script src="https://cdn.polyfill.io/v2/polyfill.min.js"></script>
+
+
+
+
+
+
+
+
+  <!-- API key -->
+  <script type="text/javascript" src="config.js"></script>
+  <!-- Our JS -->
+  <script type="text/javascript" src="logic.js"></script>
+</body>
+</html>
