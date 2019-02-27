@@ -1,5 +1,14 @@
-The related link to this project: (https://yongjinjiang.github.io/Mapping-earthquake/)
+## This is the homework project for unit 16(Mapping-Web) of [Data Visualization and Analytics](https://bootcamp.umn.edu/data/landing%20full/)
+   - A real time global earthquake map (for past 7 days) is shown with a dropdown for layer choice( details about the project can be found [here](#unit-17--assignment---visualizing-data-with-leaflet). 
+   - The app website for this project: (https://yongjinjiang.github.io/Mapping-earthquake/).
+   - A snapshot of the app:
+ <img src="./Images/app.png " width="600" height="400">
+   - Note there is a dropdown menu on the upperleft corner in which one can choose different backgroundlayer as well as what to plot, i.e., either earthquaker magnitude, bordering lines between tectonic plates, or both. 
+   - The dataset used are [earthquake during past week](https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_week.geojson) and [data for tectonic plates](https://github.com/fraxen/tectonicplates)
+   - The tools used in this project: [Leaflet.js](https://leafletjs.com/) and [GeoJSON](https://leafletjs.com/examples/geojson/)
+  
 
+## **_The original text of the homework assignment:_** 
 # Unit 17 | Assignment - Visualizing Data with Leaflet
 
 ## Background
