@@ -5,7 +5,7 @@
    - A snapshot of the app:
  <img src="./Images/app.png " width="600" height="400">
  
-   - Note there is a dropdown menu on the upperleft corner in which one can choose different backgroundlayer as well as what to plot, i.e., either earthquaker magnitude, bordering lines between tectonic plates, or both. 
+   - Note there is a dropdown menu on the upper-right corner in which one can choose different backgroundlayer as well as what to plot, i.e., either earthquaker magnitude, bordering lines between tectonic plates, or both. 
    - The dataset used are [earthquake during past week](https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_week.geojson) and [data for tectonic plates](https://github.com/fraxen/tectonicplates).
    - The tools used in this project: [Leaflet.js](https://leafletjs.com/),[GeoJSON](https://leafletjs.com/examples/geojson/), and [d3.js](https://d3js.org/).
   
