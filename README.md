@@ -1,5 +1,5 @@
 ## About
-   - This is the personal project for unit 17(Mapping-Web) of [Data Visualization and Analytics](https://bootcamp.umn.edu/data/landing%20full/)
+   - This is the personal project for unit 17(Mapping-Web) of [Data Visualization and Analytics](https://bootcamp.umn.edu/data/landing%20full/)(graded A+).
    - A real time global earthquake map (for past 7 days) is shown with a dropdown for layer choice( details about the project can be found [here](#unit-17--assignment---visualizing-data-with-leaflet). 
    - The app website for this project: (https://yongjinjiang.github.io/Mapping-earthquake/).
    - A snapshot of the app:
